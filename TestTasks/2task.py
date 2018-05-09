@@ -1,7 +1,7 @@
 import requests
 import json
 
-KEY = ''
+KEY = '' # add your key
 CITIES = ["Moscow,RU", "Kazan,RU", "London,UK"]
 list_weather = []
 
