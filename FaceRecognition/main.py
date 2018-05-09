@@ -8,9 +8,9 @@ from io import BytesIO
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
 
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
-KEY = '849295a804994c9d95db878e2cac9b44'
-BASE_URL = 'https://westeurope.api.cognitive.microsoft.com/face/v1.0/'
-URL_DETECT = 'https://westeurope.api.cognitive.microsoft.com/face/v1.0/detect'
+KEY = '' # add your key
+BASE_URL = '' # add your base url
+URL_DETECT = '' # add your detect url
 
 CF.Key.set(KEY)
 CF.BaseUrl.set(BASE_URL)
